@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B80371827C1F1420044E584 /* AxisRatingBarExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80370827C1F1410044E584 /* AxisRatingBarExampleApp.swift */; };
+		4B80371927C1F1420044E584 /* AxisRatingBarExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80370827C1F1410044E584 /* AxisRatingBarExampleApp.swift */; };
+		4B80371A27C1F1420044E584 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80370927C1F1410044E584 /* ContentView.swift */; };
+		4B80371B27C1F1420044E584 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80370927C1F1410044E584 /* ContentView.swift */; };
+		4B80371C27C1F1420044E584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B80370A27C1F1420044E584 /* Assets.xcassets */; };
+		4B80371D27C1F1420044E584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B80370A27C1F1420044E584 /* Assets.xcassets */; };
+		4B80372A27C1F1610044E584 /* AxisRatingBar in Frameworks */ = {isa = PBXBuildFile; productRef = 4B80372927C1F1610044E584 /* AxisRatingBar */; };
+		4B80372C27C1F1640044E584 /* AxisRatingBar in Frameworks */ = {isa = PBXBuildFile; productRef = 4B80372B27C1F1640044E584 /* AxisRatingBar */; };
+		4B80372E27C236200044E584 /* CustomRatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80372D27C236200044E584 /* CustomRatingBar.swift */; };
+		4B80372F27C236200044E584 /* CustomRatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80372D27C236200044E584 /* CustomRatingBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B80370827C1F1410044E584 /* AxisRatingBarExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisRatingBarExampleApp.swift; sourceTree = "<group>"; };
+		4B80370927C1F1410044E584 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B80370A27C1F1420044E584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B80370F27C1F1420044E584 /* AxisRatingBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxisRatingBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B80371527C1F1420044E584 /* AxisRatingBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxisRatingBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B80371727C1F1420044E584 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4B80372727C1F1580044E584 /* AxisRatingBar */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AxisRatingBar; path = ..; sourceTree = "<group>"; };
+		4B80372D27C236200044E584 /* CustomRatingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRatingBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B80370C27C1F1420044E584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80372A27C1F1610044E584 /* AxisRatingBar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80371227C1F1420044E584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80372C27C1F1640044E584 /* AxisRatingBar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B80370227C1F1410044E584 = {
+			isa = PBXGroup;
+			children = (
+				4B80372627C1F1580044E584 /* Packages */,
+				4B80370727C1F1410044E584 /* Shared */,
+				4B80371627C1F1420044E584 /* macOS */,
+				4B80371027C1F1420044E584 /* Products */,
+				4B80372827C1F1610044E584 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B80370727C1F1410044E584 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4B80370827C1F1410044E584 /* AxisRatingBarExampleApp.swift */,
+				4B80370927C1F1410044E584 /* ContentView.swift */,
+				4B80372D27C236200044E584 /* CustomRatingBar.swift */,
+				4B80370A27C1F1420044E584 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4B80371027C1F1420044E584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B80370F27C1F1420044E584 /* AxisRatingBarExample.app */,
+				4B80371527C1F1420044E584 /* AxisRatingBarExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B80371627C1F1420044E584 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B80371727C1F1420044E584 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4B80372627C1F1580044E584 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4B80372727C1F1580044E584 /* AxisRatingBar */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		4B80372827C1F1610044E584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B80370E27C1F1420044E584 /* AxisRatingBarExample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B80372027C1F1420044E584 /* Build configuration list for PBXNativeTarget "AxisRatingBarExample (iOS)" */;
+			buildPhases = (
+				4B80370B27C1F1420044E584 /* Sources */,
+				4B80370C27C1F1420044E584 /* Frameworks */,
+				4B80370D27C1F1420044E584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AxisRatingBarExample (iOS)";
+			packageProductDependencies = (
+				4B80372927C1F1610044E584 /* AxisRatingBar */,
+			);
+			productName = "AxisRatingBarExample (iOS)";
+			productReference = 4B80370F27C1F1420044E584 /* AxisRatingBarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B80371427C1F1420044E584 /* AxisRatingBarExample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B80372327C1F1420044E584 /* Build configuration list for PBXNativeTarget "AxisRatingBarExample (macOS)" */;
+			buildPhases = (
+				4B80371127C1F1420044E584 /* Sources */,
+				4B80371227C1F1420044E584 /* Frameworks */,
+				4B80371327C1F1420044E584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AxisRatingBarExample (macOS)";
+			packageProductDependencies = (
+				4B80372B27C1F1640044E584 /* AxisRatingBar */,
+			);
+			productName = "AxisRatingBarExample (macOS)";
+			productReference = 4B80371527C1F1420044E584 /* AxisRatingBarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B80370327C1F1410044E584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4B80370E27C1F1420044E584 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4B80371427C1F1420044E584 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B80370627C1F1410044E584 /* Build configuration list for PBXProject "AxisRatingBarExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B80370227C1F1410044E584;
+			packageReferences = (
+			);
+			productRefGroup = 4B80371027C1F1420044E584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B80370E27C1F1420044E584 /* AxisRatingBarExample (iOS) */,
+				4B80371427C1F1420044E584 /* AxisRatingBarExample (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B80370D27C1F1420044E584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80371C27C1F1420044E584 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80371327C1F1420044E584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80371D27C1F1420044E584 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B80370B27C1F1420044E584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80372E27C236200044E584 /* CustomRatingBar.swift in Sources */,
+				4B80371A27C1F1420044E584 /* ContentView.swift in Sources */,
+				4B80371827C1F1420044E584 /* AxisRatingBarExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80371127C1F1420044E584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80372F27C236200044E584 /* CustomRatingBar.swift in Sources */,
+				4B80371B27C1F1420044E584 /* ContentView.swift in Sources */,
+				4B80371927C1F1420044E584 /* AxisRatingBarExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B80371E27C1F1420044E584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B80371F27C1F1420044E584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4B80372127C1F1420044E584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM6445X39C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devstore.AxisRatingBarExample;
+				PRODUCT_NAME = AxisRatingBarExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B80372227C1F1420044E584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM6445X39C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devstore.AxisRatingBarExample;
+				PRODUCT_NAME = AxisRatingBarExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B80372427C1F1420044E584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM6445X39C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devstore.AxisRatingBarExample;
+				PRODUCT_NAME = AxisRatingBarExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4B80372527C1F1420044E584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM6445X39C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devstore.AxisRatingBarExample;
+				PRODUCT_NAME = AxisRatingBarExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B80370627C1F1410044E584 /* Build configuration list for PBXProject "AxisRatingBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B80371E27C1F1420044E584 /* Debug */,
+				4B80371F27C1F1420044E584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B80372027C1F1420044E584 /* Build configuration list for PBXNativeTarget "AxisRatingBarExample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B80372127C1F1420044E584 /* Debug */,
+				4B80372227C1F1420044E584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B80372327C1F1420044E584 /* Build configuration list for PBXNativeTarget "AxisRatingBarExample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B80372427C1F1420044E584 /* Debug */,
+				4B80372527C1F1420044E584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B80372927C1F1610044E584 /* AxisRatingBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AxisRatingBar;
+		};
+		4B80372B27C1F1640044E584 /* AxisRatingBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AxisRatingBar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4B80370327C1F1410044E584 /* Project object */;
+}
