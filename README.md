@@ -16,7 +16,7 @@ This library is a UI control for iOS and macOS developed with SwiftUI. You can d
 https://user-images.githubusercontent.com/1617304/154843169-283913dc-be6e-4d54-a139-610cc4d085dd.mov
 
 ## Example
-[https://fabulaapp.page.link/229](https://fabulaapp.page.link/229)
+[https://fabulaapp.page.link/230](https://fabulaapp.page.link/230)
 
 ## Usages
 ```swift
